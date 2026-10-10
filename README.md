@@ -57,5 +57,3 @@ python -m unittest -v
 | POST | `/users/token` | логин (форма username + password) |
 | GET | `/users/me` | с токеном |
 | GET | `/health` | все |
-
-`async_demo.py` и `bench.py` — отдельное демо разницы между `def` и `async def`, к API не относятся.
